@@ -6,13 +6,30 @@
 body {
     background-color:#FFFF
 }
+ul {
+
+}
 
 ul li{
     list-style: none;
     display: inline-block;
-    float: right;
+    float: right left;
     Line-height: 100px;
+    padding: 0 20px;
 }
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000
+    padding: 0 20px;
+
+}
+
+
+
 nav{
    
     display: flex;
@@ -34,5 +51,42 @@ nav{
   display: flex;
   justify-content:  space-around;
   width: 30;
+  color:black
   padding 0 20px;
+}
+.active{
+    font-weight: bold;
+    color: black;
+}
+.text-conatiner p:nth-child(1){
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight:bold;
+      color:#000000;
+      font-size:22px;
+ }
+.text-conatinter p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:black;
+   font-size:60px;
+ }
+.text-conatinter p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    letter-spacing:1px;
+    color:#000000;
+    font-size:30px;
+}
+.text-conatinter p{
+    line-height:0px;
+    margin:45px 0px 25px;
+}
+
+.text-conatinter{
+    position: absolute;
+    left:13%;
+    top:42%;
+    transform: translate(-13%,-42%);
+
+
 }
