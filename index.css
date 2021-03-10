@@ -112,6 +112,7 @@ style>
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    color:#DBE8E8
     transform: rotate(180deg);
 }
 
@@ -128,7 +129,7 @@ style>
 }
 
 body {
-    background-color:#DADADA;
+    background-color:#FFFFF;
 }
 
 a{
@@ -175,7 +176,7 @@ h3 {
     float:left;
     text-align:left;
     width:480px;
-    background-color: white;
+    background-color: darkblue;
     height:100%;
 }
 
@@ -192,10 +193,10 @@ text-box-content p {
 
 .button {
     padding:5% 3%;
-    border:3px soild #e0ccc8;
+    border:3px soild #C0D3CB;
     letter-spacing:0.2em;
     text-decoration:none;
-    color:#e0ccc8;
+    color:#000000;
     text-align:center;
     display:block;
     font-weight:600;
@@ -204,8 +205,8 @@ text-box-content p {
 }
 
 .button:hover {
-    color:white
-    background-color:#e0ccc8;
+    color:#50E3C2
+    background-color:#C0D3CB
 }
 
 .image-area {
