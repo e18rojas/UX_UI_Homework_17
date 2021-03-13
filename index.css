@@ -70,14 +70,14 @@ style>
           }
     }
 }
-.text-conatinter p:nth-child(1){
+.text-conatinter p:nth-child(3){
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     letter-spacing:1px;
     color:#000000;
     font-size:30px;
 }
-.text-conatiner p:nth-child(2){
+.text-conatiner p:nth-child(1){
       font-family: Arial, Helvetica, sans-serif;
       font-weight:bold;
       color:#DBE8E8;
