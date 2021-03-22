@@ -1,3 +1,35 @@
+ody {
+    background-color: #f9f9f9;
+  }
+  a {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+  }
+  em {
+    font-style: oblique;
+  }
+  strong {
+    font-style: bold;
+  }
+  img {
+    width: 100%;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+  }
+  h3 {
+    text-transform: capitalize;
+    font-size: 1.875em;
+    padding: 0 0 1% 0;
+    color: #001833;
+    font-weight: 800;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -58,149 +90,121 @@ nav{
     font-weight: bold;
     color: black;
 }
+  
 
-.cart {
-    flex: 1;
-    justify-content: flex-end;
-
-    .pressenation {
-        display: flex;
-        width: 90%;
-        margin: auto;
-        min-height: 80vh;
-    
-}
-
-.cover img{
-    height: 30vh
+.hero-image {
+    background: url("Imges/vecteezy_minimal-office-desk-table-with-keyboard-computer-coffee-cup-mouse-white-pen-earphones-lavender-flowers-on-a-green-table-with-copy-space-for-input-your-text-green-color-workplace-composition_1884691.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: %;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
-}
+  }
 
-
-}
-style>
-    * {
-            margin: 0px 5%;
-            display: grid;
-            min-height: 500px
-            height:40vh;
-
-          }
-    }
-}
-.text-conatinter p:nth-child(3){
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    letter-spacing:1px;
-    color:#000000;
-    font-size:30px;
-}
-.text-conatiner p:nth-child(1){
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight:bold;
-      color:#DBE8E8;
-      font-size:22px;
- }
-.text-conatinter p:nth-child(2){
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    color:black;
-   font-size:60px;
- }
-.text-conatinter p:nth-child(3){
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    letter-spacing:1px;
-    color:#000000;
-    font-size:30px;
-}
-.text-conatinter p{
-    line-height:0px;
-    margin:45px 0px 25px;
-}
-
-.text-conatinter{
-    position: absolute;
-    left:13%;
-    top:42%;
-    transform: translate(-13%,-42%);
-
+.hero-image .hero-text {
+color:#000000;
+text-align: center;
 
 }
 
-</style>
-}
+.hero-text h1{
+    font-size: 6em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    line-height: 1.5em;
 
 }
 
-em
+.hero-text p{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 0.09em;
 
-strong{
-    font-style: bold;
-}
-
-img{
-    width:100%;
-}
-h1,h2,h3,h4,h5 {
-    font-family: proxima-nova,sans-serif;
-    font-style:normal;
 }
 
-h3 {
-    text-transform:capitalize;
-    font: size 1.875cm;
-    padding:0 0 1% 0;
-    color#001833
-    font-weight:800;
+.hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #DBE8E8;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+
 }
+
+.hero-image .hero-btn:hover{
+    text-decoration: none;
+    color:#fff;
+    background: DADADA;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-girl {
+    height:80vh;
+    padding: 0%;
+    margin: 4%;
+    animation: drop 1.5s ease;
+}
+
+  
+@keyframes drop {
+    0% {
+opacity: 0;
+transform: translateY(-80px);
+
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}}
+
 
 .Projects {
     height: 300px;
     padding: 2% 0;
-    margin-top: 0%;
-}
-
-.Projects h2 {
+    
+  }
+  .Projects h3 {
     padding: 4% 0;
-}
-
-.text-box {
+  }
+  .text-box {
     float: left;
     text-align: left;
     width: 480px;
-    background-color: black;
+    background-color: #fff;
     height: 100%;
-}
-
-.text-box-content {
+  }
+  .text-box-content {
     padding: 4% 8%;
-}
-
-text-box-content p {
+  }
+  .text-box-content p {
     line-height: 1.8;
-    color:616569;
+    color: #616569;
     letter-spacing: .03em;
     font-size: 1em;
-}
-
-.button {
+  }
+  .button {
     padding: 5% 3%;
     border: 3px solid #e0ccc8;
     letter-spacing: 0.2em;
     text-decoration: none;
     color: #e0ccc8;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 150;
-    height: 43px;
-    left: 0px;
-    top: 240px;
-    position: static;
-    
+    display: block;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 4%;
@@ -209,94 +213,16 @@ text-box-content p {
     color: #fff;
     background-color: #e0ccc8;
   }
-
-.image-area {
+  .image-area {
     width: 480px;
     height: 300px;
     overflow: hidden;
-
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.contact {
-    width:100%;
-    background-color:#DBE8E8;
-    padding: 5% 0;
-    margin-top: 5%;
-    clear: both;
-}
-
-.contact-content {
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.contact-content h4 {
-    font-size: 1.875em;
-    padding: 1% 0;
-    color:white;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-}
-
-contact-content a {
-    color:e0ccc8;
-    text-decoration:none;
-}
-
-
-footer {
-    background-color:#DBE8E8;
-    color: black;
-    padding:2% 0;
-    clear:both;
-    height:100px;
-}
-
-footer {
-    background-color: #DBE8E8;
-    color: #fff;
-    padding: 2% 0;
-    width: 100%;
-    clear: both;
-    height: 100px;
   }
-  .footer-content {
-    max-width: 960px;
-    padding: 2% 0;
-    margin: 0 auto;
-    font-family: proxima-nova, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.4;
-    color: #fff;
-    letter-spacing: .03em;
-    font-size: 1em;
-  }
-  .credit {
+  .left {
     float: left;
   }
-  .social {
+  .right {
     float: right;
   }
-  .social li {
-    display: inline;
-  }
-  .social li a {
-    color: #fff;
-    padding: 0.2em;
-    font-size: 1.8em;
-    font-weight: 600;
-  }
-  .social li a:hover {
-    color: #011833;
-  }
+  
 
